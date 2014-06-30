@@ -208,7 +208,7 @@
 						}
 					}
 					if (replacedElement.style[property]) {
-						replacedElement.style[property] = value;
+						replacedElement.style.setProperty( property , value );
 					} else {
 						replacedElement.style.property = value;
 					}
